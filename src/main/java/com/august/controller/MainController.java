@@ -10,7 +10,9 @@ public class MainController {
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public ModelAndView first_page(){
 		ModelAndView modelAndView = new ModelAndView("first_page");
-		
+
+		System.out.println("我是sout");
+
 		return modelAndView;
 	}
 }
